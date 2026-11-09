@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-SK-081",
+  "repository_name": "edu-fee-refund-policy-consistency",
+  "version": "1.0.1",
+  "tested_source_commit": "a660a3a77b9af80f118adde3a4e8f0d4434205a0",
+  "tested_source_tree_sha": "759651fee639f981e81ca314446ed6efc462755e",
+  "package_path": "dist/edu-fee-refund-policy-consistency-v1.0.1.zip",
+  "package_sha256": "DD0E9F76E28354D2A6B9F3457EABA6D02503C1B57EB06B7BE9D688B455BC1381",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 50,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": null
+}
