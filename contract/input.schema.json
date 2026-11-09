@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jinlize.tech/education/JLZ-EDU-SK-081/input.schema.json",
+  "title": "收费与退费规则一致性检查输入契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "course_packages",
+    "contract_rule_summary",
+    "published_price_list",
+    "sales_scripts",
+    "refund_policy"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.2.0"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ],
+      "description": "输入资料的确认状态"
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "course_packages": {
+      "title": "课包清单及价格",
+      "description": "每个课包应含名称、公开价格、有效期、赠课和优惠规则",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "contract_rule_summary": {
+      "title": "合同规则摘要",
+      "description": "不得填入真实客户姓名或签名",
+      "type": "string",
+      "minLength": 1
+    },
+    "published_price_list": {
+      "title": "对外价目表",
+      "description": "渠道、价格、折扣、有效期和版本",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "sales_scripts": {
+      "title": "销售话术",
+      "description": "可能影响收费或退费承诺的原话",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "refund_policy": {
+      "title": "退费制度",
+      "description": "含起算日、扣费、赠课和审批流程",
+      "type": "string",
+      "minLength": 1
+    },
+    "approval_process": {
+      "title": "审批流程",
+      "description": "审批节点和责任角色",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

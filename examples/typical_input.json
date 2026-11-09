@@ -1,0 +1,18 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "course_packages": [
+    {}
+  ],
+  "contract_rule_summary": "合同规则摘要已核对（脱敏示例）",
+  "published_price_list": [
+    {}
+  ],
+  "sales_scripts": [
+    {}
+  ],
+  "refund_policy": "退费制度已核对（脱敏示例）",
+  "approval_process": "审批流程已核对（脱敏示例）"
+}

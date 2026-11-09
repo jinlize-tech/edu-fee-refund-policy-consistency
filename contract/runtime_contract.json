@@ -1,0 +1,89 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-SK-081",
+  "product_name": "收费与退费规则一致性检查",
+  "product_type": "Skill",
+  "repository_name": "edu-fee-refund-policy-consistency",
+  "repository_url": "https://github.com/jinlize-tech/edu-fee-refund-policy-consistency",
+  "product_version": "1.0.0",
+  "batch": 1,
+  "business_category": "09 合规与风险中心",
+  "high_risk": true,
+  "deterministic": false,
+  "agent": false,
+  "core_outputs": [
+    "规则一致性矩阵",
+    "冲突清单",
+    "建议统一口径"
+  ],
+  "optional_outputs": [
+    "情景测试用例",
+    "客服/顾问告知模板"
+  ],
+  "all_outputs": [
+    "规则一致性矩阵",
+    "冲突清单",
+    "建议统一口径",
+    "情景测试用例",
+    "客服/顾问告知模板"
+  ],
+  "human_review_required": true,
+  "reviewer_role": "财务负责人与法律/合规人员",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "course_packages",
+    "contract_rule_summary",
+    "published_price_list",
+    "sales_scripts",
+    "refund_policy"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "course_packages": {
+      "type": "array"
+    },
+    "contract_rule_summary": {
+      "type": "string"
+    },
+    "published_price_list": {
+      "type": "array"
+    },
+    "sales_scripts": {
+      "type": "array"
+    },
+    "refund_policy": {
+      "type": "string"
+    },
+    "approval_process": {
+      "type": "string"
+    }
+  },
+  "expected_scenario_count": 12,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}

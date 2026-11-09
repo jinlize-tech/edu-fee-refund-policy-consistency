@@ -1,0 +1,30 @@
+{
+  "number": 81,
+  "product_id": "JLZ-EDU-SK-081",
+  "candidate_id": "CAND-003",
+  "chinese_name": "收费与退费规则一致性检查",
+  "english_name": "Fee and Refund Policy Consistency Check",
+  "repository_name": "edu-fee-refund-policy-consistency",
+  "repository_url": "https://github.com/jinlize-tech/edu-fee-refund-policy-consistency",
+  "product_type": "Skill",
+  "category": "09 合规与风险中心",
+  "batch": 1,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "规则一致性矩阵",
+    "冲突清单",
+    "建议统一口径"
+  ],
+  "optional_outputs": [
+    "情景测试用例",
+    "客服/顾问告知模板"
+  ],
+  "high_risk": true,
+  "deterministic": false,
+  "scenario_count": 12,
+  "package_path": "dist/edu-fee-refund-policy-consistency-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}
