@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-081",
   "repository_name": "edu-fee-refund-policy-consistency",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-fee-refund-policy-consistency-v1.0.0.zip",
-  "sha256": "590EC390DB36F43A9D20C34FA394B0B24835968695A4D73A7E23110DCF7E2A92",
-  "bytes": 40263,
+  "version": "1.0.1",
+  "package_path": "dist/edu-fee-refund-policy-consistency-v1.0.1.zip",
+  "sha256": "DD0E9F76E28354D2A6B9F3457EABA6D02503C1B57EB06B7BE9D688B455BC1381",
+  "bytes": 41288,
   "entries": [
     "edu-fee-refund-policy-consistency/README.md",
     "edu-fee-refund-policy-consistency/PRODUCT_SPEC.md",
@@ -34,5 +34,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:03:05.275700+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-fee-refund-policy-consistency-v1.0.0.zip",
+  "previous_package_sha256": "590EC390DB36F43A9D20C34FA394B0B24835968695A4D73A7E23110DCF7E2A92",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }

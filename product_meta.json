@@ -9,7 +9,7 @@
   "product_type": "Skill",
   "category": "09 合规与风险中心",
   "batch": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "core_outputs": [
     "规则一致性矩阵",
@@ -23,8 +23,13 @@
   "high_risk": true,
   "deterministic": false,
   "scenario_count": 12,
-  "package_path": "dist/edu-fee-refund-policy-consistency-v1.0.0.zip",
+  "package_path": "dist/edu-fee-refund-policy-consistency-v1.0.1.zip",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+  "status": "DOCUMENTATION_AND_METADATA_PATCH_1.0.1_BUILT_PENDING_REMOTE_VERIFICATION",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-fee-refund-policy-consistency-v1.0.0.zip",
+  "previous_package_sha256": "590EC390DB36F43A9D20C34FA394B0B24835968695A4D73A7E23110DCF7E2A92",
+  "package_state": "PATCH_PACKAGE_V1.0.1_BUILT",
+  "readme_repair": "README_USAGE_INSTALLATION_ALIGNED_WITH_PACKAGE_CONTENTS"
 }
